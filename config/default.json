@@ -1,0 +1,6 @@
+{
+    "serverPort": 5000,
+    "mongoDb": "mongodb+srv://root:root@cluster1.8dgrauh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1",
+    "secretKey": "beksis-secret-key",
+    "filePath": "C:\\Users\\Bekzat\\Desktop\\projects\\scroll\\server\\files"
+}   
