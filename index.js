@@ -20,7 +20,7 @@ const start = async () => {
   try{
     await mongoose.connect(config.get('mongoDb'))
 
-    app.listen(PORT, () => {
+    app.listen(PORT,"0.0.0.0", () => {
       console.log(`Server started on http://localhost:${PORT}`);
     });
     
